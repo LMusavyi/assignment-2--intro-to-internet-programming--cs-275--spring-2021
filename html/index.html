@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    <title>Assignment 2</title>
+        
+</head>
+<body>
+    <script src="app.js"></script>
+<div class ="banner">
+    <h1>Rice Recipes</h1>
+</div>
+<div class = "options">
+   <p>What type of rice would you like to make?</p> 
+   <input type="radio" id=SCR name="rice" value="SCR">
+   <label for ="SCR">Sprouted California Rice</label>
+   <input type="radio" id=whiterice name="rice" value="whiterice">
+   <label for ="aldente">White Rice</label> <br>
+   
+   <p>How many cups of rice would you like to make?</p>
+   <input type="number" id="cups" name="cups">
+   <br><br><br>
+
+   <button onclick="determine()">Submit</button>
+</div>
+
+<div class = "recipe">
+    <textarea id="TextBox1" rows="15" cols="50" ></textarea>
+
+</div>
+</body>
+</html>
